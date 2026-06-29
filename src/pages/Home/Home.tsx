@@ -4,10 +4,6 @@ import FeaturedMenu from "../../sections/FeaturedMenu/FeaturedMenu";
 import About from "../../sections/About/About";
 import Gallery from "../../sections/Gallery/Gallery";
 import Testimonials from "../../sections/Testimonials/Testimonials";
-import Instagram from "../../sections/Instagram/Instagram";
-import Reservation from "../../sections/Reservation/Reservation";
-import Location from "../../sections/Location/Location";
-import Footer from "../../sections/Footer/Footer";
 
 function Home() {
   return (
@@ -18,10 +14,6 @@ function Home() {
       <About />
       <Gallery />
       <Testimonials />
-      <Instagram />
-      <Reservation />
-      <Location />
-      <Footer />
     </>
   );
 }

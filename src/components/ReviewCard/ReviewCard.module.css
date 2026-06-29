@@ -1,0 +1,49 @@
+.card {
+  background: var(--color-dark);
+
+  border-radius: var(--radius-lg);
+
+  padding: 32px;
+
+  transition: var(--transition);
+
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.review {
+  color: var(--color-gray-300);
+
+  line-height: 1.8;
+
+  margin-bottom: 28px;
+
+  font-style: italic;
+}
+
+.footer {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+.rating {
+  color: var(--color-primary);
+
+  font-size: 1.1rem;
+
+  letter-spacing: 2px;
+}
+
+.footer h4 {
+  color: var(--color-white);
+
+  font-size: 1rem;
+
+  font-weight: 600;
+}
