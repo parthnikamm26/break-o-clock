@@ -1,0 +1,58 @@
+.card {
+  position: relative;
+  height: 340px;
+  border-radius: 24px;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+
+  cursor: pointer;
+
+  transition: transform .35s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,.88),
+    rgba(0,0,0,.15)
+  );
+
+  transition: .35s;
+}
+
+.card:hover .overlay {
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,.92),
+    rgba(0,0,0,.05)
+  );
+}
+
+.content {
+  position: absolute;
+
+  left: 24px;
+  right: 24px;
+  bottom: 24px;
+
+  color: white;
+}
+
+.content h3 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.content p {
+  color: #d7d7d7;
+  line-height: 1.6;
+}
