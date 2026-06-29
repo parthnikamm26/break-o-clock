@@ -1,0 +1,41 @@
+.sectionTitle{
+
+    margin-bottom:48px;
+
+}
+
+.sectionTitle h2{
+
+    font-family:var(--font-heading);
+
+    font-size:48px;
+
+    font-weight:700;
+
+    color:var(--color-black);
+
+    line-height:1.2;
+
+}
+
+.subtitle{
+
+    display:inline-block;
+
+    margin-bottom:12px;
+
+    color:var(--color-primary);
+
+    font-weight:600;
+
+    letter-spacing:1px;
+
+    text-transform:uppercase;
+
+}
+
+.center{
+
+    text-align:center;
+
+}

@@ -1,0 +1,37 @@
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    text-decoration:none;
+
+}
+
+.logo__icon{
+
+    font-size:30px;
+
+    color:var(--color-primary);
+
+}
+
+.logo__text{
+
+    font-size:28px;
+
+    font-weight:800;
+
+    font-family:var(--font-heading);
+
+    color:var(--color-black);
+
+}
+
+.logo__text span{
+
+    color:var(--color-primary);
+
+}
