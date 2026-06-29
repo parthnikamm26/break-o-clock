@@ -1,4 +1,6 @@
 @import "./variables.css";
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap");
+@import "./variables.css";
 
 *{
     margin:0;
@@ -14,7 +16,7 @@ body{
 
     font-family:var(--font-body);
 
-    background:var(--color-off-white);
+    background: var(--color-black);
 
     color:var(--color-black);
 
@@ -41,9 +43,7 @@ button{
 }
 
 img{
-
-    width:100%;
-
     display:block;
-
+    max-width:100%;
+    height:auto;
 }
